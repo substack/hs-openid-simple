@@ -1,0 +1,10 @@
+Name:                openid-simple
+Version:             0.1.0
+Description:         Really simple openid authentication
+License:             BSD3
+Author:              James Halliday
+Maintainer:          mail@substack.net
+Build-Depends:       base, network, openid >= 0.1.4 && < 0.1.5
+Exposed-modules:     Network.OpenID.Simple
+hs-source-dirs:      src
+Build-Type:          Simple
